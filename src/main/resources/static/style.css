@@ -1,0 +1,23 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.container{
+	display: table;
+	text-align: center;
+	
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+span, #name.errors{
+	color: red;
+	
+}
